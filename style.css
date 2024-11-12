@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --colorAmarillo: #A46B0E;
+    --colorAmarilloOsc: #106D14;
+    --colorRojo: #DA3E44;
+    --colorVerde: #106D14;
+    --colorAzul: #1D3883;
+    --colorAzulOsc: #03143A;
+
+}
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
