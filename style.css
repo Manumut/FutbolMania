@@ -3,8 +3,8 @@
     padding: 0;
 }
 :root{
-    --colorAmarillo: #A46B0E;
-    --colorAmarilloOsc: #106D14;
+    --colorAmarilloOsc: #A46B0E;
+    --colorAmarillo: #F59B0B;
     --colorRojo: #DA3E44;
     --colorVerde: #106D14;
     --colorAzul: #1D3883;
@@ -16,4 +16,13 @@ header div{
     justify-content: space-around;
     align-items: center;
     padding: 30px;
+}
+header div > ul{
+    display: flex;
+    list-style: none;
+}
+header div > ul li{
+    padding: 8px 28px;
+    margin: 6px;
+    background-color: var(--colorAmarillo);
 }
