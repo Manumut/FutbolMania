@@ -9,20 +9,66 @@
     --colorVerde: #106D14;
     --colorAzul: #1D3883;
     --colorAzulOsc: #03143A;
+    --tHeader: "Irish Grover", system-ui;
 
 }
+a{
+     text-decoration: none;
+     font-family: var(--tHeader)
+    }
 header div{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 14rem;
     align-items: center;
     padding: 30px;
 }
 header div > ul{
     display: flex;
     list-style: none;
+    gap: 40px;
 }
 header div > ul li{
-    padding: 8px 28px;
-    margin: 6px;
+    padding: 8px 28px 0;
     background-color: var(--colorAmarillo);
+}
+header a{
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin: 40rem;
+}
+footer > div{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 28px;
+}
+footer > div > div{
+    display: flex;
+    background-color: var(--colorRojo);
+    border-radius: 4px;
+    padding: 8px 84px 8px 84px;
+    align-items: center;
+}
+
+footer > div > div p{
+    padding: 0 16px 0 0;
+    color: var(--colorAzul);
+
 }
