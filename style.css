@@ -81,8 +81,11 @@ section{
 .part{
     display: flex;
     justify-content: center;
+    border: 1px solid;
 }
-
+.part > p{
+    align-content: center;
+}
 
 
 
