@@ -37,9 +37,24 @@ header a{
 
 }
 
-
-
-
+#comentarios{
+    margin: 2rem 0 0 7rem;
+    width: 40%;
+}
+#comentarios h1{
+    font-size: 40px;
+}
+.comen article{
+    border: 2px solid;
+    display: flex;
+}
+.comen article p{
+    margin-left: 20px;
+    text-align: center;
+}
+.bot{
+    
+}
 
 
 
