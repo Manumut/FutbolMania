@@ -115,14 +115,17 @@ section{
     width: 26%;
 }
 
-.camiText{
+.camiText {
     display: flex;
+    margin: 18px 0px 18px 0px;
 }
 .camiText h2{
     display: flex;
     align-items: center;
 }
-
+.mini{
+    margin: 20px;
+}
 
 
 #camis > .prem{
