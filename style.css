@@ -16,7 +16,9 @@ a{
      text-decoration: none;
      font-family: var(--tHeader)
     }
-
+img{
+    width: 100%;
+}
 /* HEADER */
 header div{
     display: flex;
@@ -101,9 +103,48 @@ section{
     margin: 0px 3rem 0px 7rem;
 }
 
-#camis > div{
-    border: 3px solid #03143A;
+#camis > .lali{
+    border: 2px solid var(--colorRojo);
 }
+#camis > .lali > div{
+    border-bottom: 2px solid var(--colorRojo);
+   justify-items: center;
+}
+.esc img{
+    margin: 4% 0% 4% 36%;
+    width: 26%;
+}
+
+.camiText{
+    display: flex;
+}
+.camiText h2{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#camis > .prem{
+    border: 2px solid var(--colorAzulOsc);
+}
+#camis > .prem > div{
+    border-bottom: 2px solid var(--colorAzulOsc);
+   justify-items: center;
+}
+
+
+
+
+
+#camis > .ser{
+    border: 2px solid var(--colorAzul);
+}
+#camis > .ser > div{
+    border-bottom: 2px solid var(--colorAzul);
+   justify-items: center;
+}
+
 
 
 
