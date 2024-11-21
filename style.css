@@ -16,6 +16,8 @@ a{
      text-decoration: none;
      font-family: var(--tHeader)
     }
+
+/* HEADER */
 header div{
     display: flex;
     justify-content: center;
@@ -91,8 +93,21 @@ section{
 
 
 
+/* CAMISETAS */
+
+#camis{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 3rem 0px 7rem;
+}
+
+#camis > div{
+    border: 3px solid #03143A;
+}
 
 
+
+/* FOOTER */
 footer{
     margin: 40rem;
 }
