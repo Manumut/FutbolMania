@@ -17,7 +17,7 @@ a{
      font-family: var(--tHeader)
     }
 img{
-    width: 100%;
+    max-width: 100%;
 }
 /* HEADER */
 header div{
@@ -102,50 +102,60 @@ section{
     justify-content: space-evenly;
     margin: 0px 3rem 0px 7rem;
 }
-
-#camis > .lali{
-    border: 2px solid var(--colorRojo);
-}
-#camis > .lali > div{
-    border-bottom: 2px solid var(--colorRojo);
-   justify-items: center;
-}
 .esc img{
     margin: 4% 0% 4% 36%;
     width: 26%;
 }
 
+.mini{
+    /* margin: 20px; */
+    text-align: center;
+    padding: 4%;
+}
+
 .camiText {
     display: flex;
-    margin: 18px 0px 18px 0px;
+    margin: 18px 0px 18px 26px;
+    /* justify-content: center; */
+}
+.lali hr{
+    border-color: var(--colorRojo);
 }
 .camiText h2{
     display: flex;
     align-items: center;
 }
-.mini{
-    margin: 20px;
+.camiText img{
+    width: 64%;
 }
+
+#camis > .lali{
+    border: 2px solid var(--colorRojo);
+}
+/* #camis > .lali > div{ 
+   justify-items: center;
+} */
 
 
 #camis > .prem{
     border: 2px solid var(--colorAzulOsc);
 }
-#camis > .prem > div{
-    border-bottom: 2px solid var(--colorAzulOsc);
+/* #camis > .prem > div{
    justify-items: center;
+} */
+.prem hr{
+    border-color: var(--colorAzulOsc);
 }
-
-
-
 
 
 #camis > .ser{
     border: 2px solid var(--colorAzul);
 }
-#camis > .ser > div{
-    border-bottom: 2px solid var(--colorAzul);
+/* #camis > .ser > div{
    justify-items: center;
+} */
+.ser hr{
+    border-color: var(--colorAzul);
 }
 
 
