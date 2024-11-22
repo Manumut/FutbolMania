@@ -10,7 +10,8 @@
     --colorAzul: #1D3883;
     --colorAzulOsc: #03143A;
     --tHeader: "Irish Grover", system-ui;
-
+    --tSubtitulo: "Roboto Condensed", sans-serif;
+    --tForm: "Inria Serif", serif
 }
 a{
      text-decoration: none;
@@ -166,10 +167,23 @@ section{
 }
 #formu div h2{
     margin-bottom: 2%;
+    font-family: var(--tSubtitulo);
+    font-size: 38px;
 }
 #formu form .rell {
-        margin: 20px 0px 20px 0px;
-        padding: 8px;
+    margin: 20px 0px 20px 0px;
+    padding: 8px 25rem 8px 8px;
+    border-radius: 10px;
+    font-family: var(--tForm);
+    font-size: 26px;
+}
+#formu .subm{
+    background-color: white;
+    padding: 8px 38px 8px 38px;
+    color: var(--colorVerde);
+    border-radius: 8px;
+    font-family: var(--tForm);
+    font-size: 26px;
 }
 
 
