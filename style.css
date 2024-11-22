@@ -158,6 +158,31 @@ section{
     border-color: var(--colorAzul);
 }
 
+#formu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+#formu div h2{
+    margin-bottom: 2%;
+}
+#formu form .rell {
+        margin: 20px 0px 20px 0px;
+        padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
