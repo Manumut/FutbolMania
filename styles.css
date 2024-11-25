@@ -95,8 +95,34 @@ section{
 
 
 /* CLUBS */
-
-
+#cInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 2px 0px 26vh;
+    width: 35%;
+    border: 1px solid black;
+}
+#cInfo hr{
+    border-color: black;
+}
+#cInfo div{
+    background-color: var(--colorAzul);
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+}
+#cInfo div img{
+        /* width: 355%; */
+        /* margin: 40px;
+        padding: 40px; */
+    width: 80px;
+    height: 80px;
+}
+#cInfo div p{
+    text-align: justify;
+    font-size: 14px;
+    color: white;
+}
 
 
 
