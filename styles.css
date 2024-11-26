@@ -11,7 +11,8 @@
     --colorAzulOsc: #03143A;
     --tHeader: "Irish Grover", system-ui;
     --tSubtitulo: "Roboto Condensed", sans-serif;
-    --tForm: "Inria Serif", serif
+    --tForm: "Inria Serif", serif;
+    --tParr: "Inter", sans-serif;
 }
 a{
      text-decoration: none;
@@ -95,10 +96,13 @@ section{
 
 
 /* CLUBS */
+#cl{
+    display: flex;
+}
 #cInfo{
     display: flex;
     flex-direction: column;
-    margin: 0px 2px 0px 26vh;
+    margin: 36px 2px 0px 26vh;
     width: 42%;
     border: 1px solid black;
 }
@@ -117,11 +121,23 @@ section{
         padding: 40px; */
     width: 80px;
     height: 80px;
+    align-self: center;
 }
 #cInfo div p{
     text-align: justify;
     font-size: 14px;
     color: white;
+    font-family: var(--tParr);
+    font-size: 30px;
+}
+#op{
+    margin-left: 7vh;
+}
+#op > div  div{
+    background-color: turquoise;
+    white-space: break-spaces;
+    text-align: center;
+    margin: 30px;
 }
 
 
