@@ -116,9 +116,7 @@ section{
     gap: 15px;
 }
 #cInfo div img{
-        /* width: 355%; */
-        /* margin: 40px;
-        padding: 40px; */
+        
     width: 80px;
     height: 80px;
     align-self: center;
@@ -140,6 +138,57 @@ section{
     margin: 30px;
 }
 
+
+/* LIGAS */
+#lig {
+        /* display: flex; */
+        justify-content: space-between;
+        gap: 40px;
+        width: 80%;
+}
+
+/* Tablas */
+.tab {
+        /* background-color: #fff; */
+    /* color: #000; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.tab h2 {
+    /* font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold; */
+}
+
+.table {
+    width: 100%;
+    /* border-collapse: collapse;
+    text-align: center;
+    font-size: 14px; */
+}
+
+.table th, .table td {
+        /* border: 1px solid #ccc; */
+        padding: 8px;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #e0e0e0;
+}
 
 
 

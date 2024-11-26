@@ -1,0 +1,405 @@
+/* Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ General 
+body {
+    font-family: 'Irish Grover', cursive, Arial, sans-serif;
+    background-color: #002966; /Fondo azul 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ Header 
+header {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #002966;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ Main 
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+Sección de ligas 
+#lig {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+details {
+    width: 100%;
+}
+
+summary img {
+    max-width: 100px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+
+.tab {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 48%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.tab h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #002966;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #002966;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #e0e0e0;
+}
+
+ Footer 
+footer {
+    background-color: #ffcc00;
+    color: #002966;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer img {
+    max-width: 40px;
+} */
+
+
+/* Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Irish Grover', cursive, Arial, sans-serif;
+    background-color: #fff;
+    color: #002966;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 120px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #002966;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    gap: 40px;
+    margin: 40px auto;
+    width: 90%;
+}
+
+.comments-section {
+    flex: 1;
+}
+
+.comments-section h2 {
+    color: #002966;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.actions span {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.matches-section {
+    flex: 1;
+}
+
+.matches-section h2 {
+    color: #002966;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.match .team {
+    display: flex;
+    align-items: center;
+}
+
+.match .team img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.match .time {
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffcc00;
+    color: #002966;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    text-align: center;
+    color: #002966;
+}
+
+footer img {
+    max-width: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+} */
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #1a237e; /* Azul oscuro */
+    padding: 20px 0;
+    border-bottom: 5px solid #e53935; /* Línea roja */
+  }
+  
+  .header p {
+    text-align: center;
+    color: #ddd;
+    margin: 0;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    background-color: #e53935; /* Rojo */
+    color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  /* Fichajes Confirmados */
+  .transfer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .transfer-item {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transfer-item img {
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .transfer-info {
+    font-size: 14px;
+  }
+  
+  .arrow {
+    font-weight: bold;
+    color: #e53935;
+  }
+  
+  /* Rumores Destacados */
+  .rumor-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rumor-list li {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rumor-badge {
+    float: right;
+    font-size: 12px;
+    background-color: #e53935;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  /* Top Fichajes */
+  .top-list {
+    list-style: decimal inside;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
