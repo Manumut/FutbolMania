@@ -146,7 +146,9 @@ section{
         gap: 40px;
         width: 80%;
 }
-
+details{
+    text-align: -webkit-center;
+}
 /* Tablas */
 .tab {
         /* background-color: #fff; */
