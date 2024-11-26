@@ -148,6 +148,7 @@ section{
 }
 details{
     text-align: -webkit-center;
+    background-color: var(--colorRojo);
 }
 /* Tablas */
 .tab {
@@ -169,6 +170,8 @@ details{
 
 .table {
     width: 100%;
+    background-color: var(--colorAzul);
+    padding: 14vh;
     /* border-collapse: collapse;
     text-align: center;
     font-size: 14px; */
@@ -182,6 +185,9 @@ details{
 .table th {
     background-color: #f4f4f4;
     font-weight: bold;
+}
+.table tbody {
+    background-color: white;
 }
 
 .table tr:nth-child(even) {
