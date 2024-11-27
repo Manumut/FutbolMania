@@ -149,6 +149,11 @@ section{
 details{
     text-align: -webkit-center;
     background-color: var(--colorRojo);
+    margin-left: 44vh;
+}
+#lig > img{
+    width: 8%;
+    margin-top: 20px;
 }
 /* Tablas */
 .tab {
