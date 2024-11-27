@@ -44,6 +44,16 @@ header a{
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* PAGINA INICIO */
 #comentarios{
     margin: 2rem 0 0 7rem;
@@ -74,11 +84,9 @@ header a{
     width: 65%;
 }
 
-
 section{
     display: inline-block;
 }
-
 
 #partidos{
     color: var(--colorVerde);
@@ -92,6 +100,16 @@ section{
 .part > p{
     align-content: center;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -139,6 +157,18 @@ section{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* LIGAS */
 #lig {
         /* display: flex; */
@@ -156,7 +186,7 @@ details{
     margin-top: 20px;
 }
 /* Tablas */
-.tab {
+#lig .tab {
         /* background-color: #fff; */
     /* color: #000; */
     /* border-radius: 10px; */
@@ -166,14 +196,14 @@ details{
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
 }
 
-.tab h2 {
+#lig .tab h2 {
     /* font-size: 18px;
     margin-bottom: 15px;
     text-transform: uppercase;
     font-weight: bold; */
 }
 
-.table {
+#lig .table {
     width: 100%;
     background-color: var(--colorAzul);
     padding: 14vh;
@@ -182,26 +212,40 @@ details{
     font-size: 14px; */
 }
 
-.table th, .table td {
+#lig .table th, .table td {
         /* border: 1px solid #ccc; */
         padding: 8px;
 }
 
-.table th {
+#lig .table th {
     background-color: #f4f4f4;
     font-weight: bold;
 }
-.table tbody {
+#lig .table tbody {
     background-color: white;
 }
 
-.table tr:nth-child(even) {
+#lig .table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-.table tr:hover {
+#lig .table tr:hover {
     background-color: #e0e0e0;
 }
+
+
+#stats{
+    width: 50%;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
 
 
 
