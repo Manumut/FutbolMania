@@ -206,7 +206,7 @@ details{
 #lig .table {
     width: 100%;
     background-color: var(--colorAzul);
-    padding: 14vh;
+    padding: 6vh;
     /* border-collapse: collapse;
     text-align: center;
     font-size: 14px; */
@@ -236,7 +236,13 @@ details{
 
 #stats{
     width: 50%;
-    margin-top: 60px;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+#stats > div{
+    display: flex;
+    gap: 32px;
+    margin-top: 30px;
 }
 
 
