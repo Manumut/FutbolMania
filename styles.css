@@ -226,7 +226,7 @@ details{
 }
 
 #lig .table tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: white;
 }
 
 #lig .table tr:hover {
@@ -235,16 +235,23 @@ details{
 
 
 #stats{
-    width: 50%;
+    width: 27%;
     margin-top: 8%;
-    margin-left: 10%;
+    margin-left: 20%;
+    text-align: center;
 }
 #stats > div{
+    margin-top: 30px;
+    text-align: center;
+
+}
+#stats > div > div{
     display: flex;
     gap: 32px;
     margin-top: 30px;
-}
+    text-align: center;
 
+}
 
 
 
