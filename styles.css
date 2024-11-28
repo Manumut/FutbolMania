@@ -482,7 +482,7 @@ details{
 
 
 #merc{
-    background-color: var(--colorAzulOsc);
+    background-color: var(--colorAmarilloOsc);
     color: white;
     text-align: center;
     padding: 13px;
@@ -517,7 +517,7 @@ margin-right: 20px;
 }
 
 .transInfo {
-font-size: 14px;
+font-size: 24px;
 }
 
 .transInfo img {
@@ -543,7 +543,7 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 .rumores span {
 float: right;
 font-size: 12px;
-background-color: #e53935;
+background-color: var(--colorRojo);
 color: #fff;
 padding: 2px 5px;
 border-radius: 3px;
