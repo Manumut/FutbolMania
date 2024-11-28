@@ -235,12 +235,13 @@ details{
 
 
 #stats{
-    width: 27%;
-    margin-top: 8%;
-    margin-left: 20%;
+    max-width: 60%;
+    margin: 34px 0px 0px 98px;
+    /* width: 59%; */
+    padding: 20px;
     text-align: center;
 }
-#stats > div{
+/* #stats > div{
     margin-top: 30px;
     text-align: center;
 
@@ -250,8 +251,50 @@ details{
     gap: 32px;
     margin-top: 30px;
     text-align: center;
-
 }
+.estadisticas h3{
+    border: 1px solid;
+    background-color: #50515394;
+} */
+
+.estadisticas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.jug {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.jug:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.jug h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.jug p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.jug p strong {
+    color: #333;
+}
+
 
 
 
