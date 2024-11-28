@@ -44,7 +44,9 @@ header a{
 }
 
 
-
+/* section{
+    display: inline-block;
+} */
 
 
 
@@ -55,6 +57,9 @@ header a{
 
 
 /* PAGINA INICIO */
+#ini section{
+    display: inline-block;
+}
 #comentarios{
     margin: 2rem 0 0 7rem;
     width: 40%;
@@ -73,7 +78,7 @@ header a{
     margin-left: 20px;
     align-content: center;
     width: 60%;
-    font-size: 26px;
+    font-size: 18px;
 }
 .bot{
     display: flex;
@@ -82,10 +87,6 @@ header a{
 }
 .bot img{
     width: 65%;
-}
-
-section{
-    display: inline-block;
 }
 
 #partidos{

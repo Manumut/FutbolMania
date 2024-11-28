@@ -269,3 +269,85 @@
     
 </body>
 </html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider de Estadios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .slider {
+            width: 80%;
+            max-width: 800px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .slider-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            animation: slide 15s infinite;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .slide img {
+            width: 100%;
+            display: block;
+        }
+
+        @keyframes slide {
+            0%, 20% {
+                transform: translateX(0%);
+            }
+            25%, 45% {
+                transform: translateX(-100%);
+            }
+            50%, 70% {
+                transform: translateX(-200%);
+            }
+            75%, 95% {
+                transform: translateX(-300%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slider-track">
+            <div class="slide">
+                <img src="./imagenes/Estadios/anfield.jpg" alt="Estadio 1">
+            </div>
+            <div class="slide">
+                <img src="./imagenes/Estadios/anfield.jpg" alt="Estadio 2">
+            </div>
+            <div class="slide">
+                <img src="./imagenes/Estadios/anfield.jpg" alt="Estadio 3">
+            </div>
+            <div class="slide">
+                <img src="./imagenes/Estadios/anfield.jpg" alt="Estadio 4">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
