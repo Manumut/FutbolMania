@@ -319,7 +319,7 @@ body {
   }
   
   /* Section Titles */
-  .section-title {
+  .titulo {
     background-color: #e53935; /* Rojo */
     color: #fff;
     padding: 10px;
@@ -329,13 +329,13 @@ body {
   }
   
   /* Fichajes Confirmados */
-  .transfer-list {
+  .trans {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
   
-  .transfer-item {
+  .transJug {
     background-color: #fff;
     padding: 15px;
     display: flex;
@@ -344,27 +344,23 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .transfer-item img {
+  .transInfo {
+    font-size: 14px;
+  }
+
+  .transInfo img {
     border-radius: 50%;
     margin-right: 15px;
   }
   
-  .transfer-info {
-    font-size: 14px;
-  }
-  
-  .arrow {
-    font-weight: bold;
-    color: #e53935;
-  }
   
   /* Rumores Destacados */
-  .rumor-list {
+  .rumores {
     list-style: none;
     padding: 0;
   }
   
-  .rumor-list li {
+  .rumores li {
     background-color: #fff;
     padding: 10px 15px;
     margin-bottom: 10px;
@@ -372,7 +368,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .rumor-badge {
+  .rumores span {
     float: right;
     font-size: 12px;
     background-color: #e53935;
@@ -382,7 +378,7 @@ body {
   }
   
   /* Top Fichajes */
-  .top-list {
+  .tops {
     list-style: decimal inside;
     background-color: #fff;
     padding: 15px;
@@ -390,7 +386,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .top-list li {
+  .tops li {
     margin-bottom: 10px;
   }
   
