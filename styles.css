@@ -84,9 +84,9 @@ header a{
     width: 65%;
 }
 
-/* section{
+section{
     display: inline-block;
-} */
+}
 
 #partidos{
     color: var(--colorVerde);
@@ -392,6 +392,7 @@ details{
     display: flex;
     justify-content: space-evenly;
     margin: 0px 3rem 0px 7rem;
+    gap: 18px;
 }
 .esc img{
     margin: 4% 0% 4% 36%;
@@ -406,8 +407,8 @@ details{
 
 .camiText {
     display: flex;
-    margin: 18px 0px 18px 26px;
-    /* justify-content: center; */
+    margin: 18px 56px 18px 56px;
+    justify-content: center;
 }
 .lali hr{
     border-color: var(--colorRojo);
