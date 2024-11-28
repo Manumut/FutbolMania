@@ -235,7 +235,7 @@ details{
 
 
 #stats{
-    max-width: 60%;
+    max-width: 46%;
     margin: 34px 0px 0px 98px;
     /* width: 59%; */
     padding: 20px;
@@ -262,6 +262,7 @@ details{
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin-top: 14px;
 }
 
 .jug {
@@ -281,7 +282,7 @@ details{
 }
 
 .jug h2 {
-    color: #007BFF;
+    color: var(--colorAmarilloOsc);
     margin-bottom: 10px;
     text-align: center;
 }
@@ -293,6 +294,82 @@ details{
 
 .jug p strong {
     color: #333;
+}
+
+
+/* Estilo general de la sección */
+#rank {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#rank h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilo de la tabla */
+#rank .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilo de los encabezados de la tabla */
+#rank .table thead th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+/* Estilo de las filas de la tabla */
+#rank .table tbody tr {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#rank .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color alternativo para filas pares */
+}
+
+/* Estilo de las celdas */
+#rank .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+/* Efecto hover para filas */
+#rank .table tbody tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+}
+
+/* Ajuste para dispositivos móviles */
+@media (max-width: 600px) {
+    .table {
+        font-size: 0.9rem;
+    }
+    #rank h2 {
+        font-size: 1.5rem;
+    }
 }
 
 
