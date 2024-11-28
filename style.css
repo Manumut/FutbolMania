@@ -343,6 +343,10 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+  .transJug img{
+    width: 11%;
+    margin-right: 20px;
+  }
   
   .transInfo {
     font-size: 14px;
