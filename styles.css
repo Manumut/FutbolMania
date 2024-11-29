@@ -50,6 +50,62 @@ header a{
 
 
 
+/* INICIO SESION */
+#inic {
+    background: linear-gradient(135deg,#DA3E44, #1D3883);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sesion {
+    background-color: rgba(0, 0, 0, 0.655);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Logo */
+.logo img {
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+.formu div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formu input {
+    width: 100%;
+    padding: 10px;
+}
+
+.formu input::placeholder {
+    color: #aaa;
+}
+
+/* Botón */
+.enviar {
+    background-color: var(--colorRojo);
+    color: white;
+}
+
+.enviar:hover {
+    background-color: var(--colorAmarilloOsc);
+}
+
+
+
+
+
 
 
 
@@ -1125,7 +1181,7 @@ footer > div > div p{
 
     #camis {
         margin: 0 1rem;
-        gap: 1rem;
+        gap: 6rem;
         flex-direction: column;
     }
 
@@ -1274,14 +1330,12 @@ footer > div > div p{
         padding: 10px;
     }
 
-    #cInfo {
-        width: 100%; /* Ocupa todo el ancho */
-        margin-top: 20px;
-    }
-
     #op {
-        width: 100%; /* Ocupa todo el ancho */
         margin-top: 20px;
+        width: 34%;
+    }
+    #op > div div{
+        margin: 30px;
     }
 
     #slider {
@@ -1297,14 +1351,12 @@ footer > div > div p{
 /* Media query para pantallas de hasta 768px */
 @media (max-width: 768px) {
     #cl {
-        flex-wrap: wrap;
-        flex-direction: column;
         gap: 15px;
         padding: 10px;
     }
 
     #cInfo {
-        width: 100%; /* Se adapta a pantallas pequeñas */
+        width: 46%; /* Se adapta a pantallas pequeñas */
         padding: 15px;
         margin-top: 15px;
     }
@@ -1323,16 +1375,14 @@ footer > div > div p{
     }
 
     #op {
-        width: 100%; /* Ocupa todo el ancho */
+        width: 30%; /* Ocupa todo el ancho */
         margin-top: 15px;
     }
-
+    #op > div  {
+        gap: 12vh;
+    }
     #op > div div {
         padding: 20px;
-    }
-
-    #op input.escribir {
-        width: 100%; /* Ajuste del ancho de los inputs */
     }
 
     #slider {
