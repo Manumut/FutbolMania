@@ -217,7 +217,7 @@ p {
 #cInfo div img {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 #cInfo div p {
@@ -294,174 +294,6 @@ p {
     max-height: 100%;
     transition: opacity 0.5s ease-in-out;
 }
-
-
-
-
-
-
-
-
-/* #cl{
-    display: flex;
-}
-#cl section{
-    display: flex;
-
-}
-#cInfo{
-    display: flex;
-    flex-direction: column;
-    margin: 36px 2px 0px 26vh;
-    width: 42%;
-    border: 1px solid black;
-}
-#cInfo hr{
-    border-color: black;
-}
-#cInfo div{
-    background-color: var(--colorAzul);
-    padding: 15px;
-    display: flex;
-    gap: 15px;
-}
-#cInfo div img{
-        
-    width: 80px;
-    height: 80px;
-    align-self: center;
-}
-#cInfo div p{
-    text-align: justify;
-    font-size: 14px;
-    color: white;
-    font-family: var(--tParr);
-    font-size: 30px;
-}
-#op{
-    margin-left: 7vh;
-}
-#op > div  div{
-    background-color: var(--colorRojo);
-    padding: 50px;
-    text-align: center;
-    margin: 30px;
-}
-#op .escribir{
-    padding: 30px;
-    margin: 20px ;
-}
-#op .subm{
-    padding: 13px 40px 13px 40px;
-} */
-
-
-/* /* Sección Principal 
-#cl {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-    margin: 20px auto;
-}
-
-/* Información de los clubes 
-#cInfo {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    border: 2px solid black;
-    border-radius: 8px;
-    background-color: #f3f3f3;
-    padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-#cInfo hr {
-    border: 1px solid #333;
-    margin: 20px 0;
-}
-
-#cInfo div {
-    background-color: var(--colorAzul, #1d3557);
-    padding: 15px;
-    display: flex;
-    gap: 15px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#cInfo div:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-#cInfo div img {
-    width: 80px;
-    height: 80px;
-    align-self: center;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-#cInfo div p {
-    text-align: justify;
-    font-size: 16px;
-    color: white;
-    font-family: var(--tParr, 'Arial', sans-serif);
-    line-height: 1.6;
-}
-
-/* Opinión 
-#op {
-    margin-left: 7vh;
-    width: 40%;
-}
-
-#op > div {
-    text-align: center;
-}
-
-#op > div div {
-    background-color: turquoise;
-    color: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 20px auto;
-    width: 80%;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    font-size: 16px;
-}
-
-#op > div div:hover {
-    background-color: #20b2aa;
-    transform: scale(1.05);
-}
-
-/* Responsividad 
-@media (max-width: 992px) {
-    #cl {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-
-    #cInfo, #op {
-        width: 90%;
- */
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -715,6 +547,8 @@ details{
 .camiText h2{
     display: flex;
     align-items: center;
+    text-decoration: underline;
+    
 }
 .camiText img{
     width: 64%;
