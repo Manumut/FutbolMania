@@ -285,121 +285,72 @@ footer img {
 } */
 
 
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
+/* Configuración general */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  h1, h2 {
-    text-align: center;
-    color: #fff;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Header */
-  .header {
-    background-color: #1a237e; /* Azul oscuro */
-    padding: 20px 0;
-    border-bottom: 5px solid #e53935; /* Línea roja */
-  }
-  
-  .header p {
-    text-align: center;
-    color: #ddd;
-    margin: 0;
-  }
-  
-  /* Section Titles */
-  .titulo {
-    background-color: #e53935; /* Rojo */
-    color: #fff;
-    padding: 10px;
-    margin: 20px 0;
-    text-align: center;
-    border-radius: 5px;
-  }
-  
-  /* Fichajes Confirmados */
-  .trans {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .transJug {
-    background-color: #fff;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  .transJug img{
-    width: 11%;
-    margin-right: 20px;
-  }
-  
-  .transInfo {
-    font-size: 14px;
-  }
+    box-sizing: border-box;
+}
 
-  .transInfo img {
-    border-radius: 50%;
-    margin-right: 15px;
-  }
-  
-  
-  /* Rumores Destacados */
-  .rumores {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .rumores li {
-    background-color: #fff;
-    padding: 10px 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .rumores span {
-    float: right;
-    font-size: 12px;
-    background-color: #e53935;
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg,#DA3E44, #1D3883);
     color: #fff;
-    padding: 2px 5px;
-    border-radius: 3px;
-  }
-  
-  /* Top Fichajes */
-  .tops {
-    list-style: decimal inside;
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .tops li {
-    margin-bottom: 10px;
-  }
-  
-  /* Footer */
-  .footer {
-    background-color: #1a237e;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del formulario */
+.sesion {
+    background-color: rgba(0, 0, 0, 0.655);
+    border-radius: 10px;
+    padding: 30px;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
-  
+}
+
+/* Logo */
+.logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+.formu div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.formu input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formu input::placeholder {
+    color: #aaa;
+}
+
+/* Botón */
+.enviar {
+    display: block;
+    background-color: #DA3E44;
+    color: white;
+}
+
+.enviar:hover {
+    background-color: #A46B0E;
+}
+
+

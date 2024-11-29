@@ -88,6 +88,14 @@ header a{
 .bot img{
     width: 65%;
 }
+.bot img:first-child:hover {
+    content: url("./imagenes/Cosas/cora2.png"); /* Ruta de la imagen roja */
+    width: 65%;
+}
+.bot img:nth-child(2):hover {
+    content: url("./imagenes/Cosas/dis2.png"); /* Ruta de la imagen roja */
+    width: 65%;
+}
 
 #partidos{
     color: var(--colorVerde);
@@ -101,6 +109,7 @@ header a{
 .part > p{
     align-content: center;
 }
+
 
 
 
@@ -923,4 +932,111 @@ footer > div > div p{
         padding: 8px 16px;
     }
 
+}
+
+
+
+
+
+
+
+
+/* ===== Responsive para pantallas de 992px o menos ===== */
+@media screen and (max-width: 992px) {
+    #comentarios {
+        width: 60%; /* Aumentar el ancho de comentarios para mayor visibilidad */
+        margin: 2rem auto; /* Centrar la sección */
+    }
+
+    #comentarios h1 {
+        font-size: 36px; /* Reducir el tamaño del título */
+        text-align: center;
+    }
+
+    .comen article {
+        flex-direction: column; /* Apilar contenido */
+        align-items: center;
+        padding: 16px;
+    }
+
+    .comen article p {
+        margin: 10px 0;
+        width: 100%; /* Permitir que el texto ocupe todo el ancho */
+        font-size: 16px; /* Reducir el tamaño del texto */
+        text-align: center;
+    }
+
+    .bot {
+        justify-content: center;
+        width: auto;
+    }
+
+    .bot img {
+        width: 20%; /* Reducir el tamaño de los íconos */
+        margin: 0 8px;
+    }
+
+    #partidos {
+        margin: 0 auto; /* Centrar la sección de partidos */
+        text-align: center;
+    }
+
+    .part {
+        flex-wrap: wrap; /* Permitir que los elementos se ajusten en múltiples líneas */
+        padding: 10px;
+    }
+
+    .part div {
+        flex: 1 1 40%; /* Hacer los contenedores flexibles */
+        margin: 10px 0;
+    }
+
+    .part > p {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+}
+
+/* ===== Responsive para pantallas de 768px o menos ===== */
+@media screen and (max-width: 768px) {
+    #comentarios {
+        width: 90%; /* Reducir el ancho para móviles */
+        margin: 1rem auto;
+    }
+
+    #comentarios h1 {
+        font-size: 28px; /* Reducir aún más el título */
+    }
+
+    .comen article {
+        padding: 12px;
+        border-width: 1px; /* Reducir el grosor del borde */
+    }
+
+    .comen article p {
+        font-size: 14px; /* Reducir tamaño de texto */
+    }
+
+    .bot img {
+        width: 16%; /* Reducir tamaño de los íconos */
+    }
+
+    #partidos {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .part {
+        border-width: 1px; /* Reducir el grosor del borde */
+        padding: 8px;
+    }
+
+    .part div {
+        flex: 1 1 100%; /* Hacer cada equipo ocupar todo el ancho */
+        text-align: center;
+    }
+
+    .part > p {
+        margin: 10px 0;
+    }
 }
