@@ -13,6 +13,7 @@
     --tSubtitulo: "Roboto Condensed", sans-serif;
     --tForm: "Inria Serif", serif;
     --tParr: "Inter", sans-serif;
+    --tCamis: "Roboto", sans-serif;
 }
 a{
      text-decoration: none;
@@ -548,6 +549,9 @@ details{
     display: flex;
     align-items: center;
     text-decoration: underline;
+    font-family: var(--tCamis);
+    font-size: 29px;
+
     
 }
 .camiText img{
@@ -576,9 +580,9 @@ details{
 #camis > .ser{
     border: 2px solid var(--colorAzul);
 }
-/* #camis > .ser > div{
-   justify-items: center;
-} */
+.mini p{
+    font-family: var(--tParr);
+}
 .ser hr{
     border-color: var(--colorAzul);
 }
@@ -600,6 +604,7 @@ details{
     border-radius: 10px;
     font-family: var(--tForm);
     font-size: 26px;
+
 }
 #formu .subm{
     background-color: white;
@@ -622,7 +627,7 @@ details{
 
 
 
-
+/* MERCADO */
 #merc{
     background-color: var(--colorAmarilloOsc);
     color: white;
@@ -630,15 +635,14 @@ details{
     padding: 13px;
 }
 .titulo {
-    background-color: #e53935; /* Rojo */
-    color: #fff;
+    background-color: var(--colorRojo); 
+    color: white;
     padding: 10px;
     margin: 20px 0;
     text-align: center;
     border-radius: 5px;
 }
   
-/* Fichajes Confirmados */
 .trans {
 display: flex;
 flex-direction: column;
@@ -646,7 +650,7 @@ gap: 15px;
 }
 
 .transJug {
-background-color: #fff;
+background-color: white;
 padding: 15px;
 display: flex;
 align-items: center;
@@ -667,15 +671,13 @@ border-radius: 50%;
 margin-right: 15px;
 }
 
-
-/* Rumores Destacados */
 .rumores {
 list-style: none;
 padding: 0;
 }
 
 .rumores li {
-background-color: #fff;
+background-color: white;
 padding: 10px 15px;
 margin-bottom: 10px;
 border-radius: 5px;
@@ -686,15 +688,14 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 float: right;
 font-size: 12px;
 background-color: var(--colorRojo);
-color: #fff;
+color: white;
 padding: 2px 5px;
 border-radius: 3px;
 }
 
-/* Top Fichajes */
 .tops {
 list-style: decimal inside;
-background-color: #fff;
+background-color: white;
 padding: 15px;
 border-radius: 5px;
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -756,6 +757,182 @@ footer > div > div p{
 
 
 
+    
+
+
+    #comentarios {
+        width: 100%; /* Aumentar el ancho de comentarios para mayor visibilidad */
+        margin: 2rem auto; /* Centrar la sección */
+    }
+
+    #comentarios h1 {
+        font-size: 36px; /* Reducir el tamaño del título */
+        text-align: center;
+    }
+
+    .comen article {
+        flex-direction: column; /* Apilar contenido */
+        align-items: center;
+        padding: 16px;
+    }
+
+    .comen article p {
+        margin: 10px 0;
+        width: 100%; /* Permitir que el texto ocupe todo el ancho */
+        font-size: 16px; /* Reducir el tamaño del texto */
+        text-align: center;
+    }
+
+    .bot {
+        justify-content: center;
+    }
+
+    .bot img {
+        width: 20%; /* Reducir el tamaño de los íconos */
+        margin: 0 8px;
+    }
+
+    #partidos {
+        margin: 0 auto; /* Centrar la sección de partidos */
+        text-align: center;
+        width: 100%;
+    }
+
+    .part {
+        padding: 10px;
+    }
+
+    .part div {
+        flex: 1 1 40%; /* Hacer los contenedores flexibles */
+        margin: 10px 0;
+    }
+
+    .part > p {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+
+
+
+
+
+
+
+
+    #lig {
+        width: 90%;
+        gap: 20px; /* Reducimos el espacio entre elementos */
+        flex-direction: column; /* Los detalles se apilan verticalmente */
+    }
+
+    details {
+        margin-left: 20%;
+        /* margin-bottom: 20px; */
+        margin-right: 13%;
+    }
+
+    .tab {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #stats {
+        max-width: 90%;
+        margin: 20px auto; /* Centramos y ajustamos márgenes */
+    }
+
+    .estadisticas {
+        gap: 15px; /* Reducimos el espacio entre tarjetas */
+    }
+
+    .jug {
+        width: 45%; /* Ajustamos el ancho para hacer caber 2 tarjetas por fila */
+    }
+
+    #rank {
+        max-width: 90%;
+        padding: 15px;
+        margin-left: 14%;
+    }
+
+    #rank h2 {
+        font-size: 1.8rem; /* Reducimos el tamaño del título */
+    }
+
+    #rank .table td, #rank .table th {
+        font-size: 0.9rem; /* Ajustamos el tamaño de las celdas */
+        padding: 8px; /* Reducimos el espacio interno */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #cl {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    #op {
+        margin-top: 20px;
+        width: 34%;
+    }
+    #op > div div{
+        margin: 30px;
+    }
+
+    #slider {
+        height: 50vh; /* Ajusta la altura del slider */
+        margin-top: 5%;
+    }
+
+    #slider .container img {
+        object-fit: cover; /* Asegura que las imágenes cubran el espacio */
+    }
+
+
+
+
+
+    
+
+    #camis {
+        margin: 0 2rem;
+        gap: 2rem;
+    }
+
+    .esc img {
+        width: 40%;
+    }
+
+    .camiText {
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .camiText img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #formu form .rell {
+        padding: 8px 12rem 8px 8px;
+    }
+
+    #formu .subm {
+        padding: 8px 24px;
+    }
+
 
 
 
@@ -808,6 +985,27 @@ footer > div > div p{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ===== Responsive para 768px ===== */
 @media (max-width: 768px) {
     header div {
@@ -820,6 +1018,12 @@ footer > div > div p{
         font-size: 14px;
         padding: 5px 0;
     }
+
+
+
+
+
+
 
 
 
@@ -874,50 +1078,7 @@ footer > div > div p{
 
 
 @media (max-width: 992px) {
-    #lig {
-        width: 90%;
-        gap: 20px; /* Reducimos el espacio entre elementos */
-        flex-direction: column; /* Los detalles se apilan verticalmente */
-    }
-
-    details {
-        margin-left: 20%;
-        /* margin-bottom: 20px; */
-        margin-right: 13%;
-    }
-
-    .tab {
-        width: 100%;
-        padding: 10px;
-    }
-
-    #stats {
-        max-width: 90%;
-        margin: 20px auto; /* Centramos y ajustamos márgenes */
-    }
-
-    .estadisticas {
-        gap: 15px; /* Reducimos el espacio entre tarjetas */
-    }
-
-    .jug {
-        width: 45%; /* Ajustamos el ancho para hacer caber 2 tarjetas por fila */
-    }
-
-    #rank {
-        max-width: 90%;
-        padding: 15px;
-        margin-left: 14%;
-    }
-
-    #rank h2 {
-        font-size: 1.8rem; /* Reducimos el tamaño del título */
-    }
-
-    #rank .table td, #rank .table th {
-        font-size: 0.9rem; /* Ajustamos el tamaño de las celdas */
-        padding: 8px; /* Reducimos el espacio interno */
-    }
+    
 }
 
 
@@ -978,33 +1139,7 @@ footer > div > div p{
 /* Media Query para 992px */
 @media screen and (max-width: 992px) {
     
-    #camis {
-        margin: 0 2rem;
-        gap: 2rem;
-    }
-
-    .esc img {
-        width: 40%;
-    }
-
-    .camiText {
-        margin: 10px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .camiText img {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    #formu form .rell {
-        padding: 8px 12rem 8px 8px;
-    }
-
-    #formu .subm {
-        padding: 8px 24px;
-    }
+    
 
     
 }
@@ -1063,57 +1198,7 @@ footer > div > div p{
 
 /* ===== Responsive para pantallas de 992px o menos ===== */
 @media screen and (max-width: 992px) {
-    #comentarios {
-        width: 100%; /* Aumentar el ancho de comentarios para mayor visibilidad */
-        margin: 2rem auto; /* Centrar la sección */
-    }
-
-    #comentarios h1 {
-        font-size: 36px; /* Reducir el tamaño del título */
-        text-align: center;
-    }
-
-    .comen article {
-        flex-direction: column; /* Apilar contenido */
-        align-items: center;
-        padding: 16px;
-    }
-
-    .comen article p {
-        margin: 10px 0;
-        width: 100%; /* Permitir que el texto ocupe todo el ancho */
-        font-size: 16px; /* Reducir el tamaño del texto */
-        text-align: center;
-    }
-
-    .bot {
-        justify-content: center;
-    }
-
-    .bot img {
-        width: 20%; /* Reducir el tamaño de los íconos */
-        margin: 0 8px;
-    }
-
-    #partidos {
-        margin: 0 auto; /* Centrar la sección de partidos */
-        text-align: center;
-        width: 100%;
-    }
-
-    .part {
-        padding: 10px;
-    }
-
-    .part div {
-        flex: 1 1 40%; /* Hacer los contenedores flexibles */
-        margin: 10px 0;
-    }
-
-    .part > p {
-        flex: 1 1 100%;
-        margin: 10px 0;
-    }
+   
 }
 
 /* ===== Responsive para pantallas de 768px o menos ===== */
@@ -1159,27 +1244,7 @@ footer > div > div p{
 
 /* Media query para pantallas de hasta 992px */
 @media (max-width: 992px) {
-    #cl {
-        flex-wrap: wrap;
-        padding: 10px;
-    }
-
-    #op {
-        margin-top: 20px;
-        width: 34%;
-    }
-    #op > div div{
-        margin: 30px;
-    }
-
-    #slider {
-        height: 50vh; /* Ajusta la altura del slider */
-        margin-top: 5%;
-    }
-
-    #slider .container img {
-        object-fit: cover; /* Asegura que las imágenes cubran el espacio */
-    }
+    
 }
 
 /* Media query para pantallas de hasta 768px */
