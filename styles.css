@@ -486,6 +486,14 @@ details{
 
 
 
+
+
+
+
+
+
+
+
 #merc{
     background-color: var(--colorAmarilloOsc);
     color: white;
@@ -833,4 +841,86 @@ footer > div > div p{
         font-size: 0.8rem; /* Reducimos el tamaño de las celdas */
         padding: 6px; /* Reducimos el espacio interno */
     }
+}
+
+
+
+
+/* Media Query para 992px */
+@media screen and (max-width: 992px) {
+    
+    #camis {
+        margin: 0 2rem;
+        gap: 2rem;
+    }
+
+    .esc img {
+        width: 40%;
+    }
+
+    .camiText {
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .camiText img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #formu form .rell {
+        padding: 8px 12rem 8px 8px;
+    }
+
+    #formu .subm {
+        padding: 8px 24px;
+    }
+
+    
+}
+
+/* Media Query para 768px */
+@media screen and (max-width: 768px) {
+    
+
+    #camis {
+        margin: 0 1rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .esc img {
+        width: 25%;
+    }
+
+    .mini {
+        padding: 2%;
+    }
+    .mini p{
+        font-size: 26px;
+    }
+
+    .camiText img {
+        width: 52%;
+    }
+
+    .camiText h2 {
+        display: none;
+    }
+
+    #formu {
+        margin-top: 10%;
+    }
+
+    #formu form .rell {
+        padding: 8px 8rem 8px 8px;
+        font-size: 20px;
+    }
+
+    #formu .subm {
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+
 }
