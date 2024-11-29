@@ -61,7 +61,7 @@ header a{
     display: inline-block;
 }
 #comentarios{
-    margin: 2rem 0 0 7rem;
+    margin: 2rem 0 0 11rem;
     width: 40%;
 }
 #comentarios h1{
@@ -99,7 +99,7 @@ header a{
 
 #partidos{
     color: var(--colorVerde);
-    margin: 0 0 0 17rem;
+    margin: 0 0 0 10rem;
 }
 .part{
     display: flex;
@@ -124,8 +124,134 @@ header a{
 
 
 /* CLUBS */
-#cl{
+#cl {
     display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Club Info Section */
+#cInfo {
+    /* border: 2px solid #ddd; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    /* background-color: #f7f7f7; */
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    width: 56%;
+    margin-top: 70px;
+}
+
+#cInfo hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#cInfo div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #0077cc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#cInfo div img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#cInfo div p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Opinion Section */
+#op {
+    /* flex: 1;
+    background-color: #e7f7ff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    width: 30%;
+}
+
+#op h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#op > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#op > div div {
+    text-align: center;
+    background-color: var(--colorRojo);
+    padding: 37px;
+}
+
+#op input.escribir {
+    width: 90%;
+    padding: 10px;
+    /* border: 2px solid #ddd; */
+    /* border-radius: 5px; */
+    margin-bottom: 6px;
+}
+
+#op input.subm {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#op input.subm:hover {
+    background-color:var(--colorAmarillo);
+}
+
+/* Slider Section */
+#slider {
+    display: flex;
+    width: 100%;
+    height: 68vh; /* Ocupa toda la altura de la pantalla */
+    margin-top: 4%;
+    
+}
+
+#slider .container {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#slider .container img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* #cl{
+    display: flex;
+}
+#cl section{
+    display: flex;
+
 }
 #cInfo{
     display: flex;
@@ -160,12 +286,116 @@ header a{
     margin-left: 7vh;
 }
 #op > div  div{
-    background-color: turquoise;
-    white-space: break-spaces;
+    background-color: var(--colorRojo);
+    padding: 50px;
     text-align: center;
     margin: 30px;
 }
+#op .escribir{
+    padding: 30px;
+    margin: 20px ;
+}
+#op .subm{
+    padding: 13px 40px 13px 40px;
+} */
 
+
+/* /* Sección Principal 
+#cl {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+/* Información de los clubes 
+#cInfo {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cInfo hr {
+    border: 1px solid #333;
+    margin: 20px 0;
+}
+
+#cInfo div {
+    background-color: var(--colorAzul, #1d3557);
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#cInfo div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#cInfo div img {
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cInfo div p {
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+    font-family: var(--tParr, 'Arial', sans-serif);
+    line-height: 1.6;
+}
+
+/* Opinión 
+#op {
+    margin-left: 7vh;
+    width: 40%;
+}
+
+#op > div {
+    text-align: center;
+}
+
+#op > div div {
+    background-color: turquoise;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+}
+
+#op > div div:hover {
+    background-color: #20b2aa;
+    transform: scale(1.05);
+}
+
+/* Responsividad 
+@media (max-width: 992px) {
+    #cl {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #cInfo, #op {
+        width: 90%;
+ */
 
 
 
@@ -219,7 +449,7 @@ details{
 #lig .table {
     width: 100%;
     background-color: var(--colorAzul);
-    padding: 6vh;
+    padding: 4vh;
     /* border-collapse: collapse;
     text-align: center;
     font-size: 14px; */
@@ -944,7 +1174,7 @@ footer > div > div p{
 /* ===== Responsive para pantallas de 992px o menos ===== */
 @media screen and (max-width: 992px) {
     #comentarios {
-        width: 60%; /* Aumentar el ancho de comentarios para mayor visibilidad */
+        width: 100%; /* Aumentar el ancho de comentarios para mayor visibilidad */
         margin: 2rem auto; /* Centrar la sección */
     }
 
@@ -968,7 +1198,6 @@ footer > div > div p{
 
     .bot {
         justify-content: center;
-        width: auto;
     }
 
     .bot img {
@@ -979,10 +1208,10 @@ footer > div > div p{
     #partidos {
         margin: 0 auto; /* Centrar la sección de partidos */
         text-align: center;
+        width: 100%;
     }
 
     .part {
-        flex-wrap: wrap; /* Permitir que los elementos se ajusten en múltiples líneas */
         padding: 10px;
     }
 
@@ -999,10 +1228,6 @@ footer > div > div p{
 
 /* ===== Responsive para pantallas de 768px o menos ===== */
 @media screen and (max-width: 768px) {
-    #comentarios {
-        width: 90%; /* Reducir el ancho para móviles */
-        margin: 1rem auto;
-    }
 
     #comentarios h1 {
         font-size: 28px; /* Reducir aún más el título */
@@ -1038,5 +1263,84 @@ footer > div > div p{
 
     .part > p {
         margin: 10px 0;
+    }
+}
+
+
+/* Media query para pantallas de hasta 992px */
+@media (max-width: 992px) {
+    #cl {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    #cInfo {
+        width: 100%; /* Ocupa todo el ancho */
+        margin-top: 20px;
+    }
+
+    #op {
+        width: 100%; /* Ocupa todo el ancho */
+        margin-top: 20px;
+    }
+
+    #slider {
+        height: 50vh; /* Ajusta la altura del slider */
+        margin-top: 5%;
+    }
+
+    #slider .container img {
+        object-fit: cover; /* Asegura que las imágenes cubran el espacio */
+    }
+}
+
+/* Media query para pantallas de hasta 768px */
+@media (max-width: 768px) {
+    #cl {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    #cInfo {
+        width: 100%; /* Se adapta a pantallas pequeñas */
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    #cInfo div {
+        flex-direction: column; /* Elementos apilados verticalmente */
+        text-align: center;
+    }
+
+    #cInfo div img {
+        margin-bottom: 10px; /* Espaciado para imagen */
+    }
+
+    #cInfo div p {
+        font-size: 14px;
+    }
+
+    #op {
+        width: 100%; /* Ocupa todo el ancho */
+        margin-top: 15px;
+    }
+
+    #op > div div {
+        padding: 20px;
+    }
+
+    #op input.escribir {
+        width: 100%; /* Ajuste del ancho de los inputs */
+    }
+
+    #slider {
+        height: 40vh; /* Reduce la altura del slider */
+        margin-top: 5%;
+    }
+
+    #slider .container img {
+        object-fit: cover; /* Imagenes ajustadas al espacio */
     }
 }

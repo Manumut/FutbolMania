@@ -34,7 +34,6 @@
                     Cruyff y Pep Guardiola marcaron su estilo de juego en su época de entrenadores creando lo que ahora se conoce como Tiqui-taca. El lema es "Més que un club", reflejando su vínculo con la cultura catalana.
                 </p>
             </div>
-            <hr>
             <div>
                 <img src="./imagenes/Escudos/Inglaterra/li.png" alt="">
                 <p>
@@ -46,7 +45,6 @@
                     El club es famoso por su historia europea y su lema "You'll Never Walk Alone".
                 </p>
             </div>
-            <hr>
             <div>
                 <img src="./imagenes/Escudos/Italia/ju.png" alt="">
                 <p>
@@ -63,14 +61,25 @@
             <div>
                 <h2>DA TU OPINIÓN SOBRE EL CLUB</h2>
                 <div>
-                    <p>Escriba algo</p>
+                    <input type="text" class="escribir" placeholder="Escriba algo">
+                    <br>
+                    <input type="submit" class="subm" value="Enviar">
                 </div>
                 <div>
-                    <p>Escriba algo</p>
+                    <input type="text" class="escribir" placeholder="Escriba algo">
+                    <br>
+                    <input type="submit" class="subm" value="Enviar">
                 </div>
                 <div>
-                    <p>Escriba algo</p>
+                    <input type="text" class="escribir" placeholder="Escriba algo">
+                    <br>
+                    <input type="submit" class="subm" value="Enviar">
                 </div>
+            </div>
+        </section>
+
+        <section id="slider">
+            <div class="container">
             </div>
         </section>
 
@@ -98,5 +107,32 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let cont = 1; 
+            let slider = document.querySelector("#slider .container"); 
+
+            let img = document.createElement("img");
+            img.src = `imagenes/Estadios/${cont}.jpg`;
+            slider.append(img);
+
+            setInterval(() => {
+                cont++;
+
+                if (cont === 3) {
+                    cont = 1; 
+                }
+                img.style.opacity=0;
+                setTimeout(()=>{
+                    img.style.opacity=1;
+                    img.src =  `imagenes/Estadios/${cont}.jpg`;
+                },500)
+                
+                
+                
+            }, 2000);
+        });
+    </script>
 </body>
 </html>
