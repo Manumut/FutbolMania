@@ -740,6 +740,15 @@ footer > div > div p{
 
 
 
+
+
+
+
+
+
+
+
+
 /* ===== Responsive para 992px ===== */
 @media (max-width: 992px) {
     header div {
@@ -1021,71 +1030,45 @@ footer > div > div p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    #merc {
-        font-size: 18px;
+    #comentarios h1 {
+        font-size: 28px; /* Reducir aún más el título */
     }
 
-    .titulo {
-        font-size: 18px;
+    .comen article {
+        padding: 12px;
+        border-width: 1px; /* Reducir el grosor del borde */
+    }
+
+    .comen article p {
+        font-size: 14px; /* Reducir tamaño de texto */
+    }
+
+    .bot img {
+        width: 16%; /* Reducir tamaño de los íconos */
+    }
+
+    #partidos {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .part {
+        border-width: 1px; /* Reducir el grosor del borde */
         padding: 8px;
     }
 
-    .transJug img {
-        width: 40%;
-    }
-    .transInfo {
-        font-size: 16px;
+    .part div {
+        flex: 1 1 100%; /* Hacer cada equipo ocupar todo el ancho */
+        text-align: center;
     }
 
-    .rumores li {
-        font-size: 12px;
-    }
-
-    .tops {
-        font-size: 12px;
+    .part > p {
+        margin: 10px 0;
     }
 
 
 
 
-    footer > div {
-        gap: 10px;
-    }
-    footer > div > div {
-        padding: 5px 10px;
-    }
-    footer > div > div p {
-        font-size: 14px;
-    }
-}
-
-
-
-
-
-
-
-
-@media (max-width: 992px) {
-    
-}
-
-
-
-
-
-@media (max-width: 768px) {
     #lig {
         width: 100%; /* Ocupa todo el ancho */
         gap: 10px;
@@ -1131,124 +1114,10 @@ footer > div > div p{
         font-size: 0.8rem; /* Reducimos el tamaño de las celdas */
         padding: 6px; /* Reducimos el espacio interno */
     }
-}
 
 
 
 
-/* Media Query para 992px */
-@media screen and (max-width: 992px) {
-    
-    
-
-    
-}
-
-/* Media Query para 768px */
-@media screen and (max-width: 768px) {
-    
-
-    #camis {
-        margin: 0 1rem;
-        gap: 6rem;
-        flex-direction: column;
-    }
-
-    .esc img {
-        width: 25%;
-    }
-
-    .mini {
-        padding: 2%;
-    }
-    .mini p{
-        font-size: 26px;
-    }
-
-    .camiText img {
-        width: 52%;
-    }
-
-    .camiText h2 {
-        display: none;
-    }
-
-    #formu {
-        margin-top: 10%;
-    }
-
-    #formu form .rell {
-        padding: 8px 8rem 8px 8px;
-        font-size: 20px;
-    }
-
-    #formu .subm {
-        font-size: 20px;
-        padding: 8px 16px;
-    }
-
-}
-
-
-
-
-
-
-
-
-/* ===== Responsive para pantallas de 992px o menos ===== */
-@media screen and (max-width: 992px) {
-   
-}
-
-/* ===== Responsive para pantallas de 768px o menos ===== */
-@media screen and (max-width: 768px) {
-
-    #comentarios h1 {
-        font-size: 28px; /* Reducir aún más el título */
-    }
-
-    .comen article {
-        padding: 12px;
-        border-width: 1px; /* Reducir el grosor del borde */
-    }
-
-    .comen article p {
-        font-size: 14px; /* Reducir tamaño de texto */
-    }
-
-    .bot img {
-        width: 16%; /* Reducir tamaño de los íconos */
-    }
-
-    #partidos {
-        margin: 0 auto;
-        padding: 0 10px;
-    }
-
-    .part {
-        border-width: 1px; /* Reducir el grosor del borde */
-        padding: 8px;
-    }
-
-    .part div {
-        flex: 1 1 100%; /* Hacer cada equipo ocupar todo el ancho */
-        text-align: center;
-    }
-
-    .part > p {
-        margin: 10px 0;
-    }
-}
-
-
-/* Media query para pantallas de hasta 992px */
-@media (max-width: 992px) {
-    
-}
-
-/* Media query para pantallas de hasta 768px */
-@media (max-width: 768px) {
     #cl {
         gap: 15px;
         padding: 10px;
@@ -1292,4 +1161,86 @@ footer > div > div p{
     #slider .container img {
         object-fit: cover; /* Imagenes ajustadas al espacio */
     }
+
+
+
+    
+    #camis {
+        margin: 0 1rem;
+        gap: 6rem;
+        flex-direction: column;
+    }
+
+    .esc img {
+        width: 25%;
+    }
+
+    .mini {
+        padding: 2%;
+    }
+    .mini p{
+        font-size: 26px;
+    }
+
+    .camiText img {
+        width: 52%;
+    }
+
+    .camiText h2 {
+        display: none;
+    }
+
+    #formu {
+        margin-top: 10%;
+    }
+
+    #formu form .rell {
+        padding: 8px 8rem 8px 8px;
+        font-size: 20px;
+    }
+
+    #formu .subm {
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+
+
+
+    #merc {
+        font-size: 18px;
+    }
+
+    .titulo {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .transJug img {
+        width: 40%;
+    }
+    .transInfo {
+        font-size: 16px;
+    }
+
+    .rumores li {
+        font-size: 12px;
+    }
+
+    .tops {
+        font-size: 12px;
+    }
+
+
+
+
+    footer > div {
+        gap: 10px;
+    }
+    footer > div > div {
+        padding: 5px 10px;
+    }
+    footer > div > div p {
+        font-size: 14px;
+    }
 }
+
