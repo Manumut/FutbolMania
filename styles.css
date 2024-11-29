@@ -171,6 +171,9 @@ header a{
 
 
 /* LIGAS */
+#ligas section{
+    display: inline-block;
+}
 #lig {
         /* display: flex; */
         justify-content: space-between;
@@ -271,7 +274,7 @@ details{
     border: 2px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 22%;
+    width: 30%;
     padding: 15px;
     text-align: left;
     transition: transform 0.3s ease;
@@ -303,7 +306,7 @@ details{
     font-family: Arial, sans-serif;
     padding: 20px;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 34%;
     text-align: center;
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -614,6 +617,13 @@ footer > div > div p{
         text-align: center;
     }
 
+
+
+
+
+
+
+
     #merc {
         padding: 10px;
     }
@@ -643,6 +653,11 @@ footer > div > div p{
         font-size: 14px;
     }
 
+
+
+
+
+
     footer > div {
         gap: 15px;
     }
@@ -669,6 +684,13 @@ footer > div > div p{
         padding: 5px 0;
     }
 
+
+
+
+
+
+
+
     #merc {
         font-size: 18px;
     }
@@ -693,6 +715,9 @@ footer > div > div p{
         font-size: 12px;
     }
 
+
+
+
     footer > div {
         gap: 10px;
     }
@@ -701,5 +726,111 @@ footer > div > div p{
     }
     footer > div > div p {
         font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    #lig {
+        width: 90%;
+        gap: 20px; /* Reducimos el espacio entre elementos */
+        flex-direction: column; /* Los detalles se apilan verticalmente */
+    }
+
+    details {
+        margin-left: 20%;
+        /* margin-bottom: 20px; */
+        margin-right: 13%;
+    }
+
+    .tab {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #stats {
+        max-width: 90%;
+        margin: 20px auto; /* Centramos y ajustamos márgenes */
+    }
+
+    .estadisticas {
+        gap: 15px; /* Reducimos el espacio entre tarjetas */
+    }
+
+    .jug {
+        width: 45%; /* Ajustamos el ancho para hacer caber 2 tarjetas por fila */
+    }
+
+    #rank {
+        max-width: 90%;
+        padding: 15px;
+        margin-left: 14%;
+    }
+
+    #rank h2 {
+        font-size: 1.8rem; /* Reducimos el tamaño del título */
+    }
+
+    #rank .table td, #rank .table th {
+        font-size: 0.9rem; /* Ajustamos el tamaño de las celdas */
+        padding: 8px; /* Reducimos el espacio interno */
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    #lig {
+        width: 100%; /* Ocupa todo el ancho */
+        gap: 10px;
+    }
+
+    details {
+        margin-left: 10%;
+        /* margin-bottom: 15px; */
+        margin-right: 14%;
+    }
+
+    .tab {
+        padding: 5px;
+        text-align: left; /* Ajustamos alineación del texto */
+    }
+
+    #stats {
+        max-width: 100%;
+        margin-left: 18%;
+    }
+
+    .estadisticas {
+        gap: 10px;
+        flex-direction: column; /* Apilamos las tarjetas verticalmente */
+        align-items: center; /* Centramos las tarjetas */
+    }
+
+    .jug {
+        width: 90%; /* Hacemos las tarjetas más grandes */
+    }
+
+    #rank {
+        max-width: 100%;
+        padding: 21px;
+        margin-left: 17%;
+    }
+
+    #rank h2 {
+        font-size: 1.5rem; /* Reducimos aún más el tamaño del título */
+    }
+
+    #rank .table td, #rank .table th {
+        font-size: 0.8rem; /* Reducimos el tamaño de las celdas */
+        padding: 6px; /* Reducimos el espacio interno */
     }
 }
