@@ -162,129 +162,22 @@ p {
 
 
 
-
-
-
-
-
-
-/* CLUBS */
-#cl {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-#cInfo {
-    padding: 20px;
-    width: 56%;
-    margin-top: 70px;
-}
-
-#cInfo hr {
-    border: 1px solid #ccc;
-    margin: 20px 0;
-}
-
-#cInfo div {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #0077cc;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    color: white;
-}
-
-#cInfo div img {
-    width: 80px;
-    height: 80px;
-    border-radius: 20%;
-}
-
-#cInfo div p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-#op {
-    width: 30%;
-}
-
-#op h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#op > div {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#op > div div {
-    text-align: center;
-    background-color: var(--colorRojo);
-    padding: 37px;
-}
-
-#op input.escribir {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 6px;
-}
-
-#op input.subm {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#op input.subm:hover {
-    background-color:var(--colorAmarillo);
-}
-
-#slider {
-    display: flex;
-    width: 100%;
-    height: 68vh;
-    margin-top: 4%;
-}
-
-#slider .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#slider .container img {
-    max-width: 100%;
-    max-height: 100%;
-    transition: opacity 0.5s ease-in-out;
-}
-
-
-
-
-
-
 /* LIGAS */
 #ligas section{
     display: inline-block;
 }
 #lig {
-        justify-content: space-between;
-        gap: 40px;
-        width: 80%;
+    justify-content: space-between;
+    gap: 40px;
+    width: 80%;
 }
+
 details{
     text-align: -webkit-center;
     background-color: var(--colorRojo);
     margin-left: 44vh;
 }
+
 #lig > img{
     width: 8%;
     margin-top: 20px;
@@ -307,9 +200,10 @@ details{
 }
 
 #lig .table th {
-    background-color: #f4f4f4;
+    background-color: white;
     font-weight: bold;
 }
+
 #lig .table tbody {
     background-color: white;
 }
@@ -321,7 +215,6 @@ details{
 #lig .table tr:hover {
     background-color: #e0e0e0;
 }
-
 
 #stats{
     max-width: 46%;
@@ -402,13 +295,13 @@ details{
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    border: 1px solid #ddd;
+    border: 1px solid white;
     text-transform: uppercase;
 }
 
 #rank .table tbody tr {
     background-color:white;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid white;
 }
 
 #rank .table tbody tr:nth-child(even) {
@@ -418,7 +311,7 @@ details{
 #rank .table td {
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid white;
     font-size: 0.95rem;
 }
 
@@ -427,6 +320,104 @@ details{
     transform: scale(1.01);
     transition: all 0.3s ease;
 }
+
+
+
+
+
+/* CLUBS */
+#cl {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#cInfo {
+    padding: 20px;
+    width: 56%;
+    margin-top: 70px;
+}
+
+#cInfo div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--colorAzul);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#cInfo div img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+}
+
+#cInfo div p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#op {
+    width: 30%;
+}
+
+#op h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#op > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#op > div div {
+    text-align: center;
+    background-color: var(--colorRojo);
+    padding: 37px;
+}
+
+#op input.escribir {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+#op input.subm {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#op input.subm:hover {
+    background-color:var(--colorAmarillo);
+}
+
+#slider {
+    display: flex;
+    width: 100%;
+    height: 68vh;
+    margin-top: 4%;
+}
+
+#slider .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#slider .container img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
 
 
 
@@ -542,65 +533,65 @@ details{
 }
   
 .trans {
-display: flex;
-flex-direction: column;
-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .transJug {
-background-color: white;
-padding: 15px;
-display: flex;
-align-items: center;
-border-radius: 5px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .transJug img{
-width: 11%;
-margin-right: 20px;
+    width: 11%;
+    margin-right: 20px;
 }
 
 .transInfo {
-font-size: 24px;
+    font-size: 24px;
 }
 
 .transInfo img {
-border-radius: 50%;
-margin-right: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
 
 .rumores {
-list-style: none;
-padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .rumores li {
-background-color: white;
-padding: 10px 15px;
-margin-bottom: 10px;
-border-radius: 5px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .rumores span {
-float: right;
-font-size: 12px;
-background-color: var(--colorRojo);
-color: white;
-padding: 2px 5px;
-border-radius: 3px;
+    float: right;
+    font-size: 12px;
+    background-color: var(--colorRojo);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
 }
 
 .tops {
-list-style: decimal inside;
-background-color: white;
-padding: 15px;
-border-radius: 5px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: decimal inside;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .tops li {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -764,16 +755,7 @@ footer > div > div p{
 
 
 
-
-
-
-
-
-
-
-
-
-
+    /* CLUBS */
     #cl {
         flex-wrap: wrap;
         padding: 10px;
@@ -788,20 +770,19 @@ footer > div > div p{
     }
 
     #slider {
-        height: 50vh; /* Ajusta la altura del slider */
+        height: 50vh; 
         margin-top: 5%;
     }
 
     #slider .container img {
-        object-fit: cover; /* Asegura que las imágenes cubran el espacio */
+        object-fit: cover; 
     }
 
 
 
 
 
-    
-
+    /* CAMISETAS */
     #camis {
         margin: 0 2rem;
         gap: 2rem;
@@ -833,8 +814,7 @@ footer > div > div p{
 
 
 
-
-
+    /* MERCADO */
     #merc {
         padding: 10px;
     }
@@ -842,6 +822,7 @@ footer > div > div p{
     .trans {
         gap: 10px;
     }
+
     .transJug {
         flex-direction: column;
         align-items: flex-start;
@@ -866,9 +847,7 @@ footer > div > div p{
 
 
 
-
-
-
+    /* FOOTER */
     footer > div {
         gap: 15px;
     }
@@ -886,25 +865,9 @@ footer > div > div p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===== Responsive para 768px ===== */
+/* ===== RESPONSIVE PARA 768px ===== */
 @media (max-width: 768px) {
+    /* HEADER */
     header div {
         padding: 15px;
     }
@@ -918,21 +881,22 @@ footer > div > div p{
 
 
 
+    /* INICIO */
     #comentarios h1 {
-        font-size: 28px; /* Reducir aún más el título */
+        font-size: 28px;
     }
 
     .comen article {
         padding: 12px;
-        border-width: 1px; /* Reducir el grosor del borde */
+        border-width: 1px;
     }
 
     .comen article p {
-        font-size: 14px; /* Reducir tamaño de texto */
+        font-size: 14px;
     }
 
     .bot img {
-        width: 16%; /* Reducir tamaño de los íconos */
+        width: 16%;
     }
 
     #partidos {
@@ -941,12 +905,12 @@ footer > div > div p{
     }
 
     .part {
-        border-width: 1px; /* Reducir el grosor del borde */
+        border-width: 1px;
         padding: 8px;
     }
 
     .part div {
-        flex: 1 1 100%; /* Hacer cada equipo ocupar todo el ancho */
+        flex: 1 1 100%; 
         text-align: center;
     }
 
@@ -956,21 +920,20 @@ footer > div > div p{
 
 
 
-
+    /*LIGAS*/
     #lig {
-        width: 100%; /* Ocupa todo el ancho */
+        width: 100%;
         gap: 10px;
     }
 
     details {
         margin-left: 10%;
-        /* margin-bottom: 15px; */
         margin-right: 14%;
     }
 
     .tab {
         padding: 5px;
-        text-align: left; /* Ajustamos alineación del texto */
+        text-align: left;
     }
 
     #stats {
@@ -980,12 +943,12 @@ footer > div > div p{
 
     .estadisticas {
         gap: 10px;
-        flex-direction: column; /* Apilamos las tarjetas verticalmente */
-        align-items: center; /* Centramos las tarjetas */
+        flex-direction: column;
+        align-items: center;
     }
 
     .jug {
-        width: 90%; /* Hacemos las tarjetas más grandes */
+        width: 90%;
     }
 
     #rank {
@@ -995,35 +958,37 @@ footer > div > div p{
     }
 
     #rank h2 {
-        font-size: 1.5rem; /* Reducimos aún más el tamaño del título */
+        font-size: 1.5rem; 
     }
 
     #rank .table td, #rank .table th {
-        font-size: 0.8rem; /* Reducimos el tamaño de las celdas */
-        padding: 6px; /* Reducimos el espacio interno */
+        font-size: 0.8rem;
+        padding: 6px;
     }
 
 
 
 
+
+    /* CLUBS */
     #cl {
         gap: 15px;
         padding: 10px;
     }
 
     #cInfo {
-        width: 46%; /* Se adapta a pantallas pequeñas */
+        width: 46%;
         padding: 15px;
         margin-top: 15px;
     }
 
     #cInfo div {
-        flex-direction: column; /* Elementos apilados verticalmente */
+        flex-direction: column;
         text-align: center;
     }
 
     #cInfo div img {
-        margin-bottom: 10px; /* Espaciado para imagen */
+        margin-bottom: 10px;
     }
 
     #cInfo div p {
@@ -1031,7 +996,7 @@ footer > div > div p{
     }
 
     #op {
-        width: 30%; /* Ocupa todo el ancho */
+        width: 30%;
         margin-top: 15px;
     }
     #op > div  {
@@ -1042,17 +1007,13 @@ footer > div > div p{
     }
 
     #slider {
-        height: 40vh; /* Reduce la altura del slider */
+        height: 40vh;
         margin-top: 5%;
     }
 
-    #slider .container img {
-        object-fit: cover; /* Imagenes ajustadas al espacio */
-    }
 
 
-
-    
+    /* CAMISETAS */
     #camis {
         margin: 0 1rem;
         gap: 6rem;
@@ -1094,6 +1055,7 @@ footer > div > div p{
 
 
 
+    /* MERCADO */
     #merc {
         font-size: 18px;
     }
@@ -1121,6 +1083,7 @@ footer > div > div p{
 
 
 
+    /* FOOTER */
     footer > div {
         gap: 10px;
     }
